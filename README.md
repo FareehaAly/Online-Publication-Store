@@ -5,6 +5,11 @@ Bookstore Web Application
  
 🔗 [Live on GitHub](https://github.com/FareehaAly/Online-Publication-Store)
 
+⚠️ Security Note  
+This project is **for educational purposes only**. It demonstrates:  
+- Session-based auth  
+- CRUD operations  
+
    Features
 
 -  User Registration & Login using PHP sessions
@@ -19,6 +24,7 @@ Bookstore Web Application
 ```bash
 git clone https://github.com/FareehaAly/Online-Publication-Store.git
 cd Online-Publication-Store
+```
 
 2. Setup Instructions
 
@@ -40,7 +46,9 @@ Notes:
 You can also add admin login by creating a separate admins table.
 Passwords can be secured using password_hash() and password_verify() for better security.
 
-
+🔧 Future Improvements  
+-  Implement password hashing  
+-  Add CSRF tokens 
 
 Here how files are structured:
 
